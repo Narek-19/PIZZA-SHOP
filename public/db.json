@@ -1,0 +1,66 @@
+{
+    "pizzes":[
+        {
+            "id":0,
+            "imageUrl":"",
+            "name":"Neapolitan Pizza",
+            "types":[
+                0,
+                1
+            ],
+            "sizes":[
+                26,
+                30,
+                40
+            ],
+            "price":400,
+            "category":0,
+            "rating:":4
+        },
+        {
+            "id":1,
+            "imageUrl":"",
+            "name":"Chicago Pizza",
+            "types":[
+                0
+            ],
+            "sizes":[
+                26,
+                40
+            ],
+            "price":300,
+            "category":1,
+            "rating:":6
+        },
+        {
+            "id":2,
+            "imageUrl":"",
+            "name":"Sicilian Pizza",
+            "types":[
+                0
+            ],
+            "sizes":[
+                26,
+                40
+            ],
+            "price":200,
+            "category":1,
+            "rating:":4
+        },
+        {
+            "id":3,
+            "imageUrl":"",
+            "name":"Greek Pizza",
+            "types":[
+                0
+            ],
+            "sizes":[
+                26,
+                40
+            ],
+            "price":250,
+            "category":1,
+            "rating:":4
+        }
+    ]
+}
