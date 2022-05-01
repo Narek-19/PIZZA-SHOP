@@ -1,5 +1,5 @@
 {
-    "pizzes":[
+    "pizzas":[
         {
             "id":0,
             "imageUrl":"",
@@ -53,6 +53,21 @@
             "name":"Greek Pizza",
             "types":[
                 0
+            ],
+            "sizes":[
+                26,
+                40
+            ],
+            "price":250,
+            "category":1,
+            "rating:":4
+        },
+        {
+            "id":4,
+            "imageUrl":"",
+            "name":"Greek Pizza",
+            "types":[
+                1
             ],
             "sizes":[
                 26,

@@ -1,10 +1,15 @@
+.pizzaStore{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .pizzaBlock{
     background-color: #f5f4f4;
     box-sizing: border-box;
     border-radius: 20px;
-
+    margin:5px;
     width:250px;
-    height: 400px;
+    height: 405px;
     padding:8px;
     .pizzaImg {
         text-align: center;
@@ -63,7 +68,7 @@
     }
     .pizza-controls{
         .price{
-            font-size: 22px;
+            font-size: 23px;
             font-weight: bold;
         }
         
@@ -77,6 +82,14 @@
             border:2px solid #fe5f1e;
             color:#fe5f1e;
             padding:2px;
+            font-size:23px;
         }
+    }
+    .active{
+        background-color: #ffffff;;
+    }
+    .disabled{
+        opacity: 0.4;
+        pointer-events: none;
     }
 }
