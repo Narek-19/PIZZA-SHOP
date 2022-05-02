@@ -1,14 +1,13 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import { SortPopup } from "./SortPopup";
 
-export const Categories = (props) => {
+export const Categories = ({ categories }) => {
   const [category, setCategory] = useState(null);
-  const MemoPopUp = React.memo(SortPopup);
-  const { categories } = props;
 
   const onSelectItem = (index) => {
     setCategory(index);
   };
+
   const popUpData = ["Popularity", "Price", "Alphabetic"];
   return (
     <ul className="nav-categories">
@@ -30,7 +29,7 @@ export const Categories = (props) => {
             </li>
           );
         })}
-      <MemoPopUp data={popUpData} />
+      <SortPopup data={popUpData} />
     </ul>
   );
 };

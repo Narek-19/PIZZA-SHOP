@@ -5,12 +5,12 @@ import ShopCart from "./ShopCart";
 
 import "./Header.scss";
 
-const Header =()=> {
-    return (
-      <div className={classNames("Header")}>
-        <Logo />
-        <ShopCart/>
-      </div>
-    );
-}
+const Header = () => {
+  return (
+    <div className={classNames("Header")}>
+      <Logo />
+      <ShopCart />
+    </div>
+  );
+};
 export default Header;

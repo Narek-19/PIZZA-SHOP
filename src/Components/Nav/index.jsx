@@ -1,15 +1,14 @@
 import React from "react";
-import {Categories} from "./Categories";
+import { Categories } from "./Categories";
 
 import "./nav.scss";
 
-export const Nav =()=> {
-    const categories = ["Vegan", "Meat", "Spicy", "GreenPizza"];
-    
+export const Nav = () => {
+  const categories = ["Vegan", "Meat", "Spicy", "GreenPizza"];
 
-    return (
-        <nav>
-            <Categories categories = {categories}/>
-        </nav>
-    )
-}
+  return (
+    <nav>
+      <Categories categories={categories} />
+    </nav>
+  );
+};

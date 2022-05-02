@@ -9,7 +9,7 @@ const Logo = () => {
       <div className="logo-content">
         <NavLink to="/">
           <div className="App">
-            <img width = "80px" src="./assets/pizza.png" alt="Pizza logo" />
+            <img width="80px" src="./assets/pizza.png" alt="Pizza logo" />
           </div>
         </NavLink>
       </div>
